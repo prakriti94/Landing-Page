@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing page</title>
+    
+  <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-afouBw2bcUbYd6PP_uaGFVNY8GX0LZ-LEqEnZa7hl9wxomGieAtcpqEQkmmrMIAtqY4&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(bg.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    transition-property: none;
+}
+
+header .navigation a{
+    color: #000;
+
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;   
+}
+header .navigation a:not(:last-child){
+    margin-right:30px ;
+}
+header .navigation a:hover{
+    background: #40aed6;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+
+}
+.content .info h2{
+    color: #111;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom:30px;
+}
+.content .info h2 span{
+    color:#40aed6;
+    font-size: 50px;
+    font-weight: 600;
+}
+.content .info p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+.content .info-btn{
+    color: #fff;
+    background:#40aed6 ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 00.3s;
+    transition-property: none;
+}
+.content .info-btn:hover{
+    background: #000;
+}
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 25px;
+    transform: 0.3s;
+    transition-property: transform;
+}
+.media-icons a:not(:last-child){
+     margin-right: 60px;
+}
+.media-icons a:hover{
+    transform: scale(1.5);
+}
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <section>
+    <header>
+      <h2><a href="#" class="logo">Logo</a></h2>
+      <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Info</a>
+        <a href="#">Services</a>
+        <a href="#">Contacts</a>
+      
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="info">
+        <h2>Like nature <br><span>Be nurturing!!</span></div></h2>
+        <p>
+          Conservation of nature means the preservation of forests, land, water bodies, and minerals, fuels, natural gases, etc. And to make sure that all these continue to be available in abundance. Thus all these natural resources make life worth living on Earth. Life would not be imaginable without air, water, sunlight as well as other natural resources present on the earth.
+          Thus, it is essential to conserve these resources in order to retain the environment integral.<br></p><br>
+        </p>
+        <a href="#" class="info-btn">More Info</a>
+
+      </div>
+    </div>
+    <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>  
+  </section>
+</body>
+</html>
+ 
